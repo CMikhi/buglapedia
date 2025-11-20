@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buglapedia - Encyclopedia of Insect Orders</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🐛 Buglapedia</h1>
+            <p class="tagline">Your Complete Guide to Insect Orders</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <input type="text" id="searchBox" placeholder="Search for bug orders...">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Orders</button>
+                <button class="filter-btn" data-filter="common">Common</button>
+                <button class="filter-btn" data-filter="flying">Flying</button>
+                <button class="filter-btn" data-filter="aquatic">Aquatic</button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div id="bugGrid" class="bug-grid">
+            <!-- Bug cards will be inserted here by JavaScript -->
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Buglapedia. Educational resource for insect enthusiasts.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
