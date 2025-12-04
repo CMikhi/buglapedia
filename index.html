@@ -8,69 +8,75 @@
 </head>
 
 <body>
-    <header>
-        <div id="titleSection">
-            <h1>Buglapedia</h1>
-        </div>
+    <!-- Top Header Bar -->
+    <header class="top-header">
+        <a href="index.html" class="logo">
+            <span>🐛</span>
+            Buglapedia
+        </a>
+        <nav class="header-nav">
+            <a href="index.html">Home</a>
+            <a href="bees.html">Bees</a>
+            <a href="beetles.html">Beetles</a>
+            <a href="butterflies.html">Butterflies</a>
+        </nav>
     </header>
 
-    <div class="wiki-layout">
-        <nav id="sidebar">
-            <div id="verticalNavigation">
-                <div class="filter-buttons">
-                    <a href="index.html" class="filter-btn active" data-filter="all">All Orders</a>
-                    <a href="bees.html" id="bees" class="filter-btn" data-filter="bees">Bees</a>
-                    <a href="beetles.html" id="beetles" class="filter-btn" data-filter="beetles">Beetles</a>
-                    <a href="butterflies.html" id="butterflies" class="filter-btn" data-filter="butterflies">Butterflies</a>
+    <!-- Sidebar Navigation -->
+    <aside id="sidebar">
+        <nav id="verticalNavigation">
+            <div class="nav-group">
+                <div class="nav-group-title">Browse</div>
+                <div class="nav-links">
+                    <a href="index.html" class="nav-link active">All Orders</a>
+                </div>
+            </div>
+            
+            <div class="nav-group">
+                <div class="nav-group-title">Insect Orders</div>
+                <div class="nav-links">
+                    <a href="bees.html" class="nav-link">Bees</a>
+                    <a href="beetles.html" class="nav-link">Beetles</a>
+                    <a href="butterflies.html" class="nav-link">Butterflies</a>
                 </div>
             </div>
         </nav>
+    </aside>
 
-        <main class="wiki-content">
-            <h1 class="wiki-title">Welcome to Buglapedia</h1>
-            <p>Select an insect order from the navigation to learn more.</p>
+    <!-- Main Content -->
+    <div class="main-wrapper">
+        <main class="content">
+            <div class="page-label">Encyclopedia</div>
+            <h1 class="page-title">Welcome to Buglapedia</h1>
+            <p class="page-intro">
+                Your complete guide to insect orders. Explore the fascinating world of insects, from bees and beetles to butterflies and beyond.
+            </p>
+
+            <div class="section">
+                <h2 class="section-title">Getting Started</h2>
+                <p>
+                    Select an insect order from the sidebar navigation to learn more about each group. Each page includes detailed information about anatomy, behavior, species, and ecological importance.
+                </p>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">Featured Orders</h2>
+                <h3>Bees (Hymenoptera)</h3>
+                <p>
+                    Discover the world of bees – essential pollinators that play a crucial role in our ecosystems and food production.
+                </p>
+                
+                <h3>Beetles (Coleoptera)</h3>
+                <p>
+                    Explore the largest order of insects, comprising about 40% of all known insect species with incredible diversity.
+                </p>
+                
+                <h3>Butterflies (Lepidoptera)</h3>
+                <p>
+                    Learn about these beautiful insects known for their colorful wings and remarkable metamorphosis.
+                </p>
+            </div>
         </main>
     </div>
 </body>
-
-
-
-
-<!-- 
-========================================
-Vibe-coded US Below This Line
-========================================
-<body>
-    <header>
-        <div class="container">
-            <h1>🐛 Buglapedia</h1>
-            <p class="tagline">Your Complete Guide to Insect Orders</p>
-        </div>
-    </header>
-
-    <nav>
-        <div class="container">
-            <input type="text" id="searchBox" placeholder="Search for bug orders...">
-            <div class="filter-buttons">
-                <button class="filter-btn active" data-filter="all">All Orders</button>
-                <button class="filter-btn" data-filter="common">Common</button>
-                <button class="filter-btn" data-filter="flying">Flying</button>
-                <button class="filter-btn" data-filter="aquatic">Aquatic</button>
-            </div>
-        </div>
-    </nav>
-
-    <main class="container">
-        <div id="bugGrid" class="bug-grid">
-        </div>
-    </main>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Buglapedia. Educational resource for insect enthusiasts.</p>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
-</body>
-</html> -->
+</html>

@@ -7,160 +7,158 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div id="titleSection">
-            <h1>Buglapedia</h1>
-        </div>
+    <!-- Top Header Bar -->
+    <header class="top-header">
+        <a href="index.html" class="logo">
+            <span>🐛</span>
+            Buglapedia
+        </a>
+        <nav class="header-nav">
+            <a href="index.html">Home</a>
+            <a href="bees.html">Bees</a>
+            <a href="beetles.html">Beetles</a>
+            <a href="butterflies.html">Butterflies</a>
+        </nav>
     </header>
 
-    <div class="wiki-layout">
-        <nav>
-            <div id="verticalNavigation">
-                <div class="filter-buttons">
-                    <a href="index.html" class="filter-btn">All Orders</a>
-                    <a href="bees.html" class="filter-btn active">Bees</a>
-                    <a href="beetles.html" class="filter-btn">Beetles</a>
-                    <a href="butterflies.html" class="filter-btn">Butterflies</a>
+    <!-- Sidebar Navigation -->
+    <aside id="sidebar">
+        <nav id="verticalNavigation">
+            <div class="nav-group">
+                <div class="nav-group-title">Browse</div>
+                <div class="nav-links">
+                    <a href="index.html" class="nav-link">All Orders</a>
+                </div>
+            </div>
+            
+            <div class="nav-group">
+                <div class="nav-group-title">Insect Orders</div>
+                <div class="nav-links">
+                    <a href="bees.html" class="nav-link active">Bees</a>
+                    <a href="beetles.html" class="nav-link">Beetles</a>
+                    <a href="butterflies.html" class="nav-link">Butterflies</a>
                 </div>
             </div>
         </nav>
+    </aside>
 
-        <main class="wiki-content">
-            <article>
-                <h1 class="wiki-title">Bee</h1>
-                
-                <div class="wiki-infobox">
-                    <div class="infobox-title">Bee</div>
-                    <div class="infobox-image">🐝</div>
-                    <table>
-                        <tr>
-                            <th>Kingdom</th>
-                            <td>Animalia</td>
-                        </tr>
-                        <tr>
-                            <th>Phylum</th>
-                            <td>Arthropoda</td>
-                        </tr>
-                        <tr>
-                            <th>Class</th>
-                            <td>Insecta</td>
-                        </tr>
-                        <tr>
-                            <th>Order</th>
-                            <td>Hymenoptera</td>
-                        </tr>
-                        <tr>
-                            <th>Superfamily</th>
-                            <td>Apoidea</td>
-                        </tr>
-                        <tr>
-                            <th>Species</th>
-                            <td>~20,000</td>
-                        </tr>
-                    </table>
-                </div>
+    <!-- Main Content -->
+    <div class="main-wrapper">
+        <main class="content">
+            <div class="page-label">Hymenoptera</div>
+            <h1 class="page-title">Bees</h1>
+            
+            <div class="infobox">
+                <div class="infobox-header">Bee</div>
+                <div class="infobox-image">🐝</div>
+                <table>
+                    <tr><th>Kingdom</th><td>Animalia</td></tr>
+                    <tr><th>Phylum</th><td>Arthropoda</td></tr>
+                    <tr><th>Class</th><td>Insecta</td></tr>
+                    <tr><th>Order</th><td>Hymenoptera</td></tr>
+                    <tr><th>Superfamily</th><td>Apoidea</td></tr>
+                    <tr><th>Species</th><td>~20,000</td></tr>
+                </table>
+            </div>
 
-                <p class="wiki-intro">
-                    <strong>Bees</strong> are winged insects closely related to wasps and ants, known for their role in pollination and, in the case of the best-known bee species, the western honey bee, for producing honey. Bees are a monophyletic lineage within the superfamily <em>Apoidea</em>. They are presently considered a clade, called <em>Anthophila</em>.
+            <p class="page-intro">
+                <strong>Bees</strong> are winged insects closely related to wasps and ants, known for their role in pollination and, in the case of the best-known bee species, the western honey bee, for producing honey. Bees are a monophyletic lineage within the superfamily <em>Apoidea</em>.
+            </p>
+
+            <div class="toc">
+                <div class="toc-title">Contents</div>
+                <ol>
+                    <li><a href="#overview">Overview</a></li>
+                    <li><a href="#anatomy">Anatomy</a></li>
+                    <li><a href="#behavior">Behavior and Ecology</a></li>
+                    <li><a href="#types">Types of Bees</a></li>
+                    <li><a href="#importance">Importance to Ecosystems</a></li>
+                    <li><a href="#threats">Threats and Conservation</a></li>
+                </ol>
+            </div>
+
+            <div class="section" id="overview">
+                <h2 class="section-title">Overview</h2>
+                <p>
+                    There are over 20,000 known species of bees in seven recognized biological families. Some species – including honey bees, bumblebees, and stingless bees – live socially in colonies while most species (>90%) – including mason bees, carpenter bees, leafcutter bees, and sweat bees – are solitary.
                 </p>
+                <p>
+                    Bees are found on every continent except Antarctica, in every habitat on the planet that contains insect-pollinated flowering plants. The most common bees in the Northern Hemisphere are the Halictidae, or sweat bees, but they are small and often mistaken for wasps or flies.
+                </p>
+            </div>
 
-                <div class="wiki-toc">
-                    <h2>Contents</h2>
-                    <ol>
-                        <li><a href="#overview">Overview</a></li>
-                        <li><a href="#anatomy">Anatomy</a></li>
-                        <li><a href="#behavior">Behavior and Ecology</a></li>
-                        <li><a href="#types">Types of Bees</a></li>
-                        <li><a href="#importance">Importance to Ecosystems</a></li>
-                        <li><a href="#threats">Threats and Conservation</a></li>
-                    </ol>
-                </div>
+            <div class="section" id="anatomy">
+                <h2 class="section-title">Anatomy</h2>
+                <p>
+                    Bees have a long, complex tongue (proboscis) that enables them to obtain the nectar from flowers. They have antennae almost universally made up of 13 segments in males and 12 in females. Bees all have two pairs of wings, the hind pair being the smaller of the two.
+                </p>
+                <p>
+                    The smallest bee is <em>Perdita minima</em>, less than 2 mm (0.08 in) long. The largest bee in the world is <em>Megachile pluto</em>, which can grow to 39 mm (1.54 in). Common honey bees range from 10-15 mm in length.
+                </p>
+            </div>
 
-                <section id="overview">
-                    <h2>Overview</h2>
-                    <p>
-                        There are over 20,000 known species of bees in seven recognized biological families. Some species – including honey bees, bumblebees, and stingless bees – live socially in colonies while most species (>90%) – including mason bees, carpenter bees, leafcutter bees, and sweat bees – are solitary.
-                    </p>
-                    <p>
-                        Bees are found on every continent except Antarctica, in every habitat on the planet that contains insect-pollinated flowering plants. The most common bees in the Northern Hemisphere are the Halictidae, or sweat bees, but they are small and often mistaken for wasps or flies.
-                    </p>
-                </section>
+            <div class="section" id="behavior">
+                <h2 class="section-title">Behavior and Ecology</h2>
+                <p>
+                    Bees play an important role in pollinating flowering plants and are the major type of pollinator in many ecosystems. It is estimated that one-third of the human food supply depends on pollination by insects, birds, and bats, most of which is accomplished by bees.
+                </p>
+                <p>
+                    Bees focus their energies on gathering nectar and pollen, although they are able to learn visual patterns. A bee can navigate through complex mazes and can learn to use simple tools and observe and recall sequences of movements.
+                </p>
+            </div>
 
-                <section id="anatomy">
-                    <h2>Anatomy</h2>
-                    <p>
-                        Bees have a long, complex tongue (proboscis) that enables them to obtain the nectar from flowers. They have antennae almost universally made up of 13 segments in males and 12 in females. Bees all have two pairs of wings, the hind pair being the smaller of the two.
-                    </p>
-                    <p>
-                        The smallest bee is <em>Perdita minima</em>, less than 2 mm (0.08 in) long. The largest bee in the world is <em>Megachile pluto</em>, which can grow to 39 mm (1.54 in). Common honey bees range from 10-15 mm in length.
-                    </p>
-                </section>
+            <div class="section" id="types">
+                <h2 class="section-title">Types of Bees</h2>
+                <h3>Honey Bees</h3>
+                <p>
+                    Honey bees (<em>Apis</em>) are the most well-known species and are managed worldwide for honey production and crop pollination. A single colony can contain 20,000 to 80,000 bees.
+                </p>
+                <h3>Bumblebees</h3>
+                <p>
+                    Bumblebees (<em>Bombus</em>) are large, fuzzy bees that are important pollinators. They are social insects that form colonies with a single queen.
+                </p>
+                <h3>Carpenter Bees</h3>
+                <p>
+                    Carpenter bees (<em>Xylocopa</em>) are large bees that build nests by tunneling into wood. Unlike honey bees, most carpenter bees are solitary.
+                </p>
+                <h3>Mason Bees</h3>
+                <p>
+                    Mason bees (<em>Osmia</em>) are named for their habit of using mud or other materials to construct their nests. They are excellent pollinators for fruit trees.
+                </p>
+            </div>
 
-                <section id="behavior">
-                    <h2>Behavior and Ecology</h2>
-                    <p>
-                        Bees play an important role in pollinating flowering plants and are the major type of pollinator in many ecosystems. It is estimated that one-third of the human food supply depends on pollination by insects, birds, and bats, most of which is accomplished by bees.
-                    </p>
-                    <p>
-                        Bees focus their energies on gathering nectar and pollen, although they are able to learn visual patterns. A bee can navigate through complex mazes and can learn to use simple tools and observe and recall sequences of movements.
-                    </p>
-                </section>
+            <div class="section" id="importance">
+                <h2 class="section-title">Importance to Ecosystems</h2>
+                <p>
+                    Bees are vital to biodiversity and food security. They pollinate approximately 80% of all flowering plants, including more than 130 types of fruits and vegetables. The economic value of bee pollination is estimated at over $200 billion annually worldwide.
+                </p>
+                <p>
+                    Beyond food crops, bees pollinate plants that provide habitat and food for other wildlife, making them a keystone species in many ecosystems.
+                </p>
+            </div>
 
-                <section id="types">
-                    <h2>Types of Bees</h2>
-                    <h3>Honey Bees</h3>
-                    <p>
-                        Honey bees (<em>Apis</em>) are the most well-known species and are managed worldwide for honey production and crop pollination. A single colony can contain 20,000 to 80,000 bees.
-                    </p>
-                    <h3>Bumblebees</h3>
-                    <p>
-                        Bumblebees (<em>Bombus</em>) are large, fuzzy bees that are important pollinators. They are social insects that form colonies with a single queen.
-                    </p>
-                    <h3>Carpenter Bees</h3>
-                    <p>
-                        Carpenter bees (<em>Xylocopa</em>) are large bees that build nests by tunneling into wood. Unlike honey bees, most carpenter bees are solitary.
-                    </p>
-                    <h3>Mason Bees</h3>
-                    <p>
-                        Mason bees (<em>Osmia</em>) are named for their habit of using mud or other materials to construct their nests. They are excellent pollinators for fruit trees.
-                    </p>
-                </section>
+            <div class="section" id="threats">
+                <h2 class="section-title">Threats and Conservation</h2>
+                <p>Bee populations worldwide face numerous threats including:</p>
+                <ul>
+                    <li><strong>Habitat loss</strong> – urbanization and agricultural intensification</li>
+                    <li><strong>Pesticides</strong> – particularly neonicotinoids</li>
+                    <li><strong>Climate change</strong> – affecting flowering times and bee activity</li>
+                    <li><strong>Diseases and parasites</strong> – including Varroa mites</li>
+                    <li><strong>Invasive species</strong> – competing for resources</li>
+                </ul>
+                <p>
+                    Conservation efforts include creating pollinator-friendly habitats, reducing pesticide use, and supporting local beekeepers.
+                </p>
+            </div>
 
-                <section id="importance">
-                    <h2>Importance to Ecosystems</h2>
-                    <p>
-                        Bees are vital to biodiversity and food security. They pollinate approximately 80% of all flowering plants, including more than 130 types of fruits and vegetables. The economic value of bee pollination is estimated at over $200 billion annually worldwide.
-                    </p>
-                    <p>
-                        Beyond food crops, bees pollinate plants that provide habitat and food for other wildlife, making them a keystone species in many ecosystems.
-                    </p>
-                </section>
-
-                <section id="threats">
-                    <h2>Threats and Conservation</h2>
-                    <p>
-                        Bee populations worldwide face numerous threats including:
-                    </p>
-                    <ul>
-                        <li><strong>Habitat loss</strong> – urbanization and agricultural intensification</li>
-                        <li><strong>Pesticides</strong> – particularly neonicotinoids</li>
-                        <li><strong>Climate change</strong> – affecting flowering times and bee activity</li>
-                        <li><strong>Diseases and parasites</strong> – including Varroa mites</li>
-                        <li><strong>Invasive species</strong> – competing for resources</li>
-                    </ul>
-                    <p>
-                        Conservation efforts include creating pollinator-friendly habitats, reducing pesticide use, and supporting local beekeepers.
-                    </p>
-                </section>
-
-                <section class="wiki-references">
-                    <h2>See Also</h2>
-                    <ul>
-                        <li><a href="beetles.html">Beetles</a></li>
-                        <li><a href="butterflies.html">Butterflies</a></li>
-                    </ul>
-                </section>
-            </article>
+            <div class="see-also">
+                <h2>See Also</h2>
+                <ul>
+                    <li><a href="beetles.html">Beetles</a></li>
+                    <li><a href="butterflies.html">Butterflies</a></li>
+                </ul>
+            </div>
         </main>
     </div>
 </body>

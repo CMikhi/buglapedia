@@ -7,173 +7,169 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div id="titleSection">
-            <h1>Buglapedia</h1>
-        </div>
+    <!-- Top Header Bar -->
+    <header class="top-header">
+        <a href="index.html" class="logo">
+            <span>🐛</span>
+            Buglapedia
+        </a>
+        <nav class="header-nav">
+            <a href="index.html">Home</a>
+            <a href="bees.html">Bees</a>
+            <a href="beetles.html">Beetles</a>
+            <a href="butterflies.html">Butterflies</a>
+        </nav>
     </header>
 
-    <div class="wiki-layout">
-        <nav>
-            <div id="verticalNavigation">
-                <div class="filter-buttons">
-                    <a href="index.html" class="filter-btn">All Orders</a>
-                    <a href="bees.html" class="filter-btn">Bees</a>
-                    <a href="beetles.html" class="filter-btn active">Beetles</a>
-                    <a href="butterflies.html" class="filter-btn">Butterflies</a>
+    <!-- Sidebar Navigation -->
+    <aside id="sidebar">
+        <nav id="verticalNavigation">
+            <div class="nav-group">
+                <div class="nav-group-title">Browse</div>
+                <div class="nav-links">
+                    <a href="index.html" class="nav-link">All Orders</a>
+                </div>
+            </div>
+            
+            <div class="nav-group">
+                <div class="nav-group-title">Insect Orders</div>
+                <div class="nav-links">
+                    <a href="bees.html" class="nav-link">Bees</a>
+                    <a href="beetles.html" class="nav-link active">Beetles</a>
+                    <a href="butterflies.html" class="nav-link">Butterflies</a>
                 </div>
             </div>
         </nav>
+    </aside>
 
-        <main class="wiki-content">
-            <article>
-                <h1 class="wiki-title">Beetle</h1>
-                
-                <div class="wiki-infobox">
-                    <div class="infobox-title">Beetle</div>
-                    <div class="infobox-image">🪲</div>
-                    <table>
-                        <tr>
-                            <th>Kingdom</th>
-                            <td>Animalia</td>
-                        </tr>
-                        <tr>
-                            <th>Phylum</th>
-                            <td>Arthropoda</td>
-                        </tr>
-                        <tr>
-                            <th>Class</th>
-                            <td>Insecta</td>
-                        </tr>
-                        <tr>
-                            <th>Order</th>
-                            <td>Coleoptera</td>
-                        </tr>
-                        <tr>
-                            <th>Families</th>
-                            <td>~180</td>
-                        </tr>
-                        <tr>
-                            <th>Species</th>
-                            <td>~400,000</td>
-                        </tr>
-                    </table>
-                </div>
+    <!-- Main Content -->
+    <div class="main-wrapper">
+        <main class="content">
+            <div class="page-label">Coleoptera</div>
+            <h1 class="page-title">Beetles</h1>
+            
+            <div class="infobox">
+                <div class="infobox-header">Beetle</div>
+                <div class="infobox-image">🪲</div>
+                <table>
+                    <tr><th>Kingdom</th><td>Animalia</td></tr>
+                    <tr><th>Phylum</th><td>Arthropoda</td></tr>
+                    <tr><th>Class</th><td>Insecta</td></tr>
+                    <tr><th>Order</th><td>Coleoptera</td></tr>
+                    <tr><th>Families</th><td>~180</td></tr>
+                    <tr><th>Species</th><td>~400,000</td></tr>
+                </table>
+            </div>
 
-                <p class="wiki-intro">
-                    <strong>Beetles</strong> are insects that form the order <em>Coleoptera</em>, in the superorder <em>Endopterygota</em>. Their front pair of wings are hardened into wing-cases, called <em>elytra</em>, distinguishing them from most other insects. The Coleoptera, with about 400,000 described species, is the largest of all orders, constituting almost 40% of described insects and 25% of all known animal species.
+            <p class="page-intro">
+                <strong>Beetles</strong> are insects that form the order <em>Coleoptera</em>, in the superorder <em>Endopterygota</em>. Their front pair of wings are hardened into wing-cases, called <em>elytra</em>, distinguishing them from most other insects. The Coleoptera, with about 400,000 described species, is the largest of all orders, constituting almost 40% of described insects.
+            </p>
+
+            <div class="toc">
+                <div class="toc-title">Contents</div>
+                <ol>
+                    <li><a href="#overview">Overview</a></li>
+                    <li><a href="#anatomy">Anatomy</a></li>
+                    <li><a href="#lifecycle">Life Cycle</a></li>
+                    <li><a href="#types">Types of Beetles</a></li>
+                    <li><a href="#ecology">Ecology and Behavior</a></li>
+                    <li><a href="#humans">Relationship with Humans</a></li>
+                </ol>
+            </div>
+
+            <div class="section" id="overview">
+                <h2 class="section-title">Overview</h2>
+                <p>
+                    Beetles are found in almost every habitat on Earth, from deserts to rainforests, from fresh water to the seashore. They are found on every continent except Antarctica. Beetles evolved during the Permian period, approximately 270 million years ago, and have diversified into one of the most successful groups of organisms on Earth.
                 </p>
+                <p>
+                    The diversity of beetles is remarkable – they range in size from the tiny featherwing beetles (less than 1 mm) to the titan beetle (<em>Titanus giganteus</em>), which can reach 16.7 cm in length. Beetles occupy every ecological niche and have adapted to nearly every food source imaginable.
+                </p>
+            </div>
 
-                <div class="wiki-toc">
-                    <h2>Contents</h2>
-                    <ol>
-                        <li><a href="#overview">Overview</a></li>
-                        <li><a href="#anatomy">Anatomy</a></li>
-                        <li><a href="#lifecycle">Life Cycle</a></li>
-                        <li><a href="#types">Types of Beetles</a></li>
-                        <li><a href="#ecology">Ecology and Behavior</a></li>
-                        <li><a href="#humans">Relationship with Humans</a></li>
-                    </ol>
-                </div>
+            <div class="section" id="anatomy">
+                <h2 class="section-title">Anatomy</h2>
+                <p>
+                    The most distinctive feature of beetles is their hardened forewings, called <em>elytra</em>. These modified wings serve as protective covers for the hindwings and abdomen when the beetle is not flying. The elytra meet in a straight line down the middle of the back, which is a key identifying characteristic.
+                </p>
+                <p>
+                    Beetles have chewing mouthparts, with powerful mandibles that vary greatly depending on diet. They have compound eyes and antennae that come in many shapes – thread-like, clubbed, comb-like, or fan-shaped – depending on the species.
+                </p>
+                <p>
+                    Like all insects, beetles have three main body segments: the head, thorax, and abdomen, with six legs attached to the thorax.
+                </p>
+            </div>
 
-                <section id="overview">
-                    <h2>Overview</h2>
-                    <p>
-                        Beetles are found in almost every habitat on Earth, from deserts to rainforests, from fresh water to the seashore. They are found on every continent except Antarctica. Beetles evolved during the Permian period, approximately 270 million years ago, and have diversified into one of the most successful groups of organisms on Earth.
-                    </p>
-                    <p>
-                        The diversity of beetles is remarkable – they range in size from the tiny featherwing beetles (less than 1 mm) to the titan beetle (<em>Titanus giganteus</em>), which can reach 16.7 cm in length. Beetles occupy every ecological niche and have adapted to nearly every food source imaginable.
-                    </p>
-                </section>
+            <div class="section" id="lifecycle">
+                <h2 class="section-title">Life Cycle</h2>
+                <p>Beetles undergo complete metamorphosis (holometabolism), which includes four distinct stages:</p>
+                <ul>
+                    <li><strong>Egg</strong> – laid singly or in clusters depending on species</li>
+                    <li><strong>Larva</strong> – often called grubs, worms, or wireworms</li>
+                    <li><strong>Pupa</strong> – the transformation stage, often occurring in soil or wood</li>
+                    <li><strong>Adult</strong> – the reproductive stage with fully developed wings</li>
+                </ul>
+                <p>
+                    The duration of each stage varies greatly between species, from a few weeks to several years. Some beetles, like the splendour beetles, can remain as larvae inside wood for up to 40 years.
+                </p>
+            </div>
 
-                <section id="anatomy">
-                    <h2>Anatomy</h2>
-                    <p>
-                        The most distinctive feature of beetles is their hardened forewings, called <em>elytra</em>. These modified wings serve as protective covers for the hindwings and abdomen when the beetle is not flying. The elytra meet in a straight line down the middle of the back, which is a key identifying characteristic.
-                    </p>
-                    <p>
-                        Beetles have chewing mouthparts, with powerful mandibles that vary greatly depending on diet. They have compound eyes and antennae that come in many shapes – thread-like, clubbed, comb-like, or fan-shaped – depending on the species.
-                    </p>
-                    <p>
-                        Like all insects, beetles have three main body segments: the head, thorax, and abdomen, with six legs attached to the thorax.
-                    </p>
-                </section>
+            <div class="section" id="types">
+                <h2 class="section-title">Types of Beetles</h2>
+                <h3>Ladybugs (Coccinellidae)</h3>
+                <p>
+                    Ladybugs, also known as ladybirds, are beloved beetles known for their bright colors and spots. Most species are beneficial predators of aphids and other pest insects.
+                </p>
+                <h3>Scarab Beetles (Scarabaeidae)</h3>
+                <p>
+                    This large family includes dung beetles, June bugs, and rhinoceros beetles. Scarabs were sacred to ancient Egyptians and are known for their remarkable strength.
+                </p>
+                <h3>Longhorn Beetles (Cerambycidae)</h3>
+                <p>
+                    Named for their extremely long antennae, which can be longer than their body. Their larvae bore into wood and can be pests of timber.
+                </p>
+                <h3>Fireflies (Lampyridae)</h3>
+                <p>
+                    Despite their name, fireflies are actually beetles famous for their bioluminescence. They use light signals for mating communication.
+                </p>
+                <h3>Weevils (Curculionidae)</h3>
+                <p>
+                    The largest beetle family with over 60,000 species. Characterized by their elongated snouts, many are agricultural pests.
+                </p>
+            </div>
 
-                <section id="lifecycle">
-                    <h2>Life Cycle</h2>
-                    <p>
-                        Beetles undergo complete metamorphosis (holometabolism), which includes four distinct stages:
-                    </p>
-                    <ul>
-                        <li><strong>Egg</strong> – laid singly or in clusters depending on species</li>
-                        <li><strong>Larva</strong> – often called grubs, worms, or wireworms</li>
-                        <li><strong>Pupa</strong> – the transformation stage, often occurring in soil or wood</li>
-                        <li><strong>Adult</strong> – the reproductive stage with fully developed wings</li>
-                    </ul>
-                    <p>
-                        The duration of each stage varies greatly between species, from a few weeks to several years. Some beetles, like the splendour beetles, can remain as larvae inside wood for up to 40 years.
-                    </p>
-                </section>
+            <div class="section" id="ecology">
+                <h2 class="section-title">Ecology and Behavior</h2>
+                <p>Beetles play crucial roles in ecosystems worldwide:</p>
+                <ul>
+                    <li><strong>Decomposition</strong> – many beetles break down dead organic matter</li>
+                    <li><strong>Pollination</strong> – some beetles are important pollinators</li>
+                    <li><strong>Pest control</strong> – predatory beetles consume harmful insects</li>
+                    <li><strong>Nutrient cycling</strong> – dung beetles process animal waste</li>
+                    <li><strong>Food source</strong> – beetles are prey for many animals</li>
+                </ul>
+                <p>
+                    Beetles have developed remarkable defense mechanisms including chemical sprays (bombardier beetles), hard shells, camouflage, mimicry, and playing dead.
+                </p>
+            </div>
 
-                <section id="types">
-                    <h2>Types of Beetles</h2>
-                    <h3>Ladybugs (Coccinellidae)</h3>
-                    <p>
-                        Ladybugs, also known as ladybirds, are beloved beetles known for their bright colors and spots. Most species are beneficial predators of aphids and other pest insects.
-                    </p>
-                    <h3>Scarab Beetles (Scarabaeidae)</h3>
-                    <p>
-                        This large family includes dung beetles, June bugs, and rhinoceros beetles. Scarabs were sacred to ancient Egyptians and are known for their remarkable strength.
-                    </p>
-                    <h3>Longhorn Beetles (Cerambycidae)</h3>
-                    <p>
-                        Named for their extremely long antennae, which can be longer than their body. Their larvae bore into wood and can be pests of timber.
-                    </p>
-                    <h3>Fireflies (Lampyridae)</h3>
-                    <p>
-                        Despite their name, fireflies are actually beetles famous for their bioluminescence. They use light signals for mating communication.
-                    </p>
-                    <h3>Weevils (Curculionidae)</h3>
-                    <p>
-                        The largest beetle family with over 60,000 species. Characterized by their elongated snouts, many are agricultural pests.
-                    </p>
-                </section>
+            <div class="section" id="humans">
+                <h2 class="section-title">Relationship with Humans</h2>
+                <p>
+                    Beetles have a complex relationship with humans. While some species are destructive pests of crops, stored products, and timber, others are valuable for pest control and pollination.
+                </p>
+                <p>
+                    The boll weevil devastated the American cotton industry in the early 20th century, while ladybugs are intentionally introduced to control aphid populations. Beetles also have cultural significance – scarab beetles were revered in ancient Egypt, and stag beetles are popular pets in Japan.
+                </p>
+            </div>
 
-                <section id="ecology">
-                    <h2>Ecology and Behavior</h2>
-                    <p>
-                        Beetles play crucial roles in ecosystems worldwide:
-                    </p>
-                    <ul>
-                        <li><strong>Decomposition</strong> – many beetles break down dead organic matter</li>
-                        <li><strong>Pollination</strong> – some beetles are important pollinators</li>
-                        <li><strong>Pest control</strong> – predatory beetles consume harmful insects</li>
-                        <li><strong>Nutrient cycling</strong> – dung beetles process animal waste</li>
-                        <li><strong>Food source</strong> – beetles are prey for many animals</li>
-                    </ul>
-                    <p>
-                        Beetles have developed remarkable defense mechanisms including chemical sprays (bombardier beetles), hard shells, camouflage, mimicry, and playing dead.
-                    </p>
-                </section>
-
-                <section id="humans">
-                    <h2>Relationship with Humans</h2>
-                    <p>
-                        Beetles have a complex relationship with humans. While some species are destructive pests of crops, stored products, and timber, others are valuable for pest control and pollination.
-                    </p>
-                    <p>
-                        The boll weevil devastated the American cotton industry in the early 20th century, while ladybugs are intentionally introduced to control aphid populations. Beetles also have cultural significance – scarab beetles were revered in ancient Egypt, and stag beetles are popular pets in Japan.
-                    </p>
-                </section>
-
-                <section class="wiki-references">
-                    <h2>See Also</h2>
-                    <ul>
-                        <li><a href="bees.html">Bees</a></li>
-                        <li><a href="butterflies.html">Butterflies</a></li>
-                    </ul>
-                </section>
-            </article>
+            <div class="see-also">
+                <h2>See Also</h2>
+                <ul>
+                    <li><a href="bees.html">Bees</a></li>
+                    <li><a href="butterflies.html">Butterflies</a></li>
+                </ul>
+            </div>
         </main>
     </div>
 </body>
