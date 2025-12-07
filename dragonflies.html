@@ -11,9 +11,12 @@
     <header class="top-header">
         <a href="index.html" class="logo">
             <img src="images/logo.png" alt="Buglapedia Logo">
-            Buglapedia
+            <span>Buglapedia</span>
         </a>
-         <nav class="header-nav">
+        <div class="search-bar">
+            <input type="text" placeholder="Search">
+        </div>
+        <nav class="header-nav">
             <a href="index.html">Home</a>
             <a href="aboutUs.html">About Us</a>
             <a href="contactUs.html">Contact Us</a>
@@ -24,14 +27,14 @@
     <aside id="sidebar">
         <nav id="verticalNavigation">
             <div class="nav-group">
-                <div class="nav-group-title">Browse</div>
+                <div class="nav-group-title">BROWSE</div>
                 <div class="nav-links">
                     <a href="index.html" class="nav-link">All Orders</a>
                 </div>
             </div>
             
             <div class="nav-group">
-                <div class="nav-group-title">Insect Orders</div>
+                <div class="nav-group-title">INSECT ORDERS</div>
                 <div class="nav-links">
                     <a href="assassinBugs.html" class="nav-link">Assassin Bugs</a>
                     <a href="bees.html" class="nav-link">Bees</a>
@@ -50,8 +53,8 @@
             <h1 class="page-title">Dragonflies</h1>
             
             <div class="infobox">
-                <div class="infobox-image">
-                    <img src="https://via.placeholder.com/340x250/4a9eff/ffffff?text=Dragonfly" alt="Dragonfly">
+                <div class="infobox-image" id="dragonflyImage">
+                    <img src="images/Dragonfly Image.png" alt="Dragonfly">
                 </div>
             </div>
 
@@ -59,7 +62,7 @@
                 <strong>Dragonflies</strong> are flying insects belonging to the order <em>Odonata</em>, suborder <em>Anisoptera</em>. They are characterized by large, multifaceted eyes, two pairs of strong, transparent wings, and an elongated body. Dragonflies are among the fastest flying insects in the world and are ancient creatures that have existed for over 300 million years.
             </p>
 
-            <div class="toc">
+            <div class="toc" id="quicksearch">
                 <div class="toc-title">Contents</div>
                 <ol>
                     <li><a href="#overview">Overview</a></li>

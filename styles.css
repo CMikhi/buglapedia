@@ -57,7 +57,7 @@ body {
     justify-content: space-between;
     padding: 0 32px;
     z-index: 200;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0,0 ,0,0.1);
 }
 
 .top-header .logo {
@@ -146,7 +146,7 @@ body {
 }
 
 .nav-group-title {
-    color: var(--sidebar-text);
+    color: var(--accent-green);
     font-size: 0.7rem;
     font-weight: 700;
     text-transform: uppercase;
@@ -178,7 +178,7 @@ body {
 .nav-link.active {
     color: white;
     background: var(--sidebar-active);
-    border-left-color: rgba(255,255,255,0.4);
+    border-left-color: #6b7c5e;
 }
 
 /* Main Content Area */
@@ -288,6 +288,30 @@ body {
     height: auto;
     display: block;
 
+}
+
+#beeImage img {
+    width: 50%;
+    height: auto;
+    margin-top: -30px;
+}
+
+#beetleImage img {
+    width: 50%;
+    height: auto;
+    margin-top: -30px;
+}
+
+#butterflyImage img {
+    width: 50%;
+    height: auto;
+    margin-top: -30px;
+}
+
+#dragonflyImage img {
+    width: 50%;
+    height: auto;
+    margin-top: -30px;
 }
 
 /* Table of Contents */

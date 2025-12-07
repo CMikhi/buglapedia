@@ -11,9 +11,12 @@
     <header class="top-header">
         <a href="index.html" class="logo">
             <img src="images/logo.png" alt="Buglapedia Logo">
-            Buglapedia
+            <span>Buglapedia</span>
         </a>
-         <nav class="header-nav">
+        <div class="search-bar">
+            <input type="text" placeholder="Search">
+        </div>
+        <nav class="header-nav">
             <a href="index.html">Home</a>
             <a href="aboutUs.html">About Us</a>
             <a href="contactUs.html">Contact Us</a>
@@ -24,14 +27,14 @@
     <aside id="sidebar">
         <nav id="verticalNavigation">
             <div class="nav-group">
-                <div class="nav-group-title">Browse</div>
+                <div class="nav-group-title">BROWSE</div>
                 <div class="nav-links">
                     <a href="index.html" class="nav-link">All Orders</a>
                 </div>
             </div>
             
             <div class="nav-group">
-                <div class="nav-group-title">Insect Orders</div>
+                <div class="nav-group-title">INSECT ORDERS</div>
                 <div class="nav-links">
                     <a href="assassinBugs.html" class="nav-link">Assassin Bugs</a>
                     <a href="bees.html" class="nav-link">Bees</a>
@@ -50,8 +53,8 @@
             <h1 class="page-title">Beetles</h1>
             
             <div class="infobox">
-                <div class="infobox-image">
-                    <img src="https://via.placeholder.com/340x250/4a3f34/ffffff?text=Beetle" alt="Beetle">
+                <div class="infobox-image" id="beetleImage">
+                    <img src="images/Beetle Image.png" alt="Beetle">
                 </div>
             </div>
 
@@ -59,7 +62,7 @@
                 <strong>Beetles</strong> are insects that form the order <em>Coleoptera</em>, in the superorder <em>Endopterygota</em>. Their front pair of wings are hardened into wing-cases, called <em>elytra</em>, distinguishing them from most other insects. The Coleoptera, with about 400,000 described species, is the largest of all orders, constituting almost 40% of described insects.
             </p>
 
-            <div class="toc">
+            <div class="toc" id="quicksearch">
                 <div class="toc-title">Contents</div>
                 <ol>
                     <li><a href="#overview">Overview</a></li>

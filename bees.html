@@ -11,9 +11,12 @@
     <header class="top-header">
         <a href="index.html" class="logo">
             <img src="images/logo.png" alt="Buglapedia Logo">
-            Buglapedia
+            <span>Buglapedia</span>
         </a>
-         <nav class="header-nav">
+        <div class="search-bar">
+            <input type="text" placeholder="Search">
+        </div>
+        <nav class="header-nav">
             <a href="index.html">Home</a>
             <a href="aboutUs.html">About Us</a>
             <a href="contactUs.html">Contact Us</a>
@@ -24,14 +27,14 @@
     <aside id="sidebar">
         <nav id="verticalNavigation">
             <div class="nav-group">
-                <div class="nav-group-title">Browse</div>
+                <div class="nav-group-title">BROWSE</div>
                 <div class="nav-links">
                     <a href="index.html" class="nav-link">All Orders</a>
                 </div>
             </div>
             
             <div class="nav-group">
-                <div class="nav-group-title">Insect Orders</div>
+                <div class="nav-group-title">INSECT ORDERS</div>
                 <div class="nav-links">
                     <a href="assassinBugs.html" class="nav-link">Assassin Bugs</a>
                     <a href="bees.html" class="nav-link active">Bees</a>
@@ -50,8 +53,8 @@
             <h1 class="page-title">Bees</h1>
             
             <div class="infobox">
-                <div class="infobox-image">
-                    <img src="https://via.placeholder.com/340x250/f4c430/ffffff?text=Honey+Bee" alt="Honey Bee">
+                <div class="infobox-image" id="beeImage">
+                    <img src="images/Bee Image.png" alt="Bee">
                 </div>
             </div>
 
@@ -59,7 +62,7 @@
                 <strong>Bees</strong> are winged insects closely related to wasps and ants, known for their role in pollination and, in the case of the best-known bee species, the western honey bee, for producing honey. Bees are a monophyletic lineage within the superfamily <em>Apoidea</em>.
             </p>
 
-            <div class="toc">
+            <div class="toc" id="quicksearch">
                 <div class="toc-title">Contents</div>
                 <ol>
                     <li><a href="#overview">Overview</a></li>
