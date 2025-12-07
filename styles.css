@@ -73,8 +73,7 @@ body {
 .top-header .logo img {
     width: 50px;
     height: 50px;
-    border-radius: 8px;
-    border: 2px solid rgba(255,255,255,0.3);
+
 }
 
 /* Search Bar */
@@ -273,24 +272,22 @@ body {
 .infobox {
     float: right;
     width: 340px;
-    margin: 0 0 32px 40px;
-    background: white;
-    border-radius: 8px;
+    margin: -40px 0 32px 40px;
     overflow: hidden;
-    border: 1px solid var(--border-color);
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 
 .infobox-image {
     width: 100%;
     height: auto;
     display: block;
+
 }
 
 .infobox-image img {
     width: 100%;
     height: auto;
     display: block;
+
 }
 
 /* Table of Contents */
@@ -394,7 +391,7 @@ body {
 .about-photo {
     float: right;
     width: 300px;
-    margin: 0 0 24px 40px;
+    margin: -40px 0 24px 40px;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
