@@ -492,6 +492,53 @@ body {
     gap: 16px;
 }
 
+/* Insect Orders Table */
+.insect-orders-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 24px;
+    background: white;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.insect-orders-table thead {
+    background: var(--accent-green);
+    color: white;
+}
+
+.insect-orders-table th {
+    padding: 16px;
+    text-align: left;
+    font-weight: 600;
+    border: 1px solid var(--border-color);
+}
+
+.insect-orders-table td {
+    padding: 14px 16px;
+    border: 1px solid var(--border-color);
+    vertical-align: top;
+}
+
+.insect-orders-table tbody tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+.insect-orders-table tbody tr:hover {
+    background-color: rgba(132, 184, 92, 0.1);
+}
+
+.insect-orders-table a {
+    color: var(--accent-green);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.insect-orders-table a:hover {
+    text-decoration: underline;
+}
+
 .submit-btn {
     padding: 12px 32px;
     background: var(--accent-green);
