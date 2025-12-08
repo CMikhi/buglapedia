@@ -675,7 +675,7 @@ body {
         left: 0;
         right: 0;
         display: none;
-        background: white;
+        background: var(--sidebar-bg);
         border-bottom: 1px solid var(--border-color);
         z-index: 100;
         max-height: calc(100vh - 60px);
@@ -719,6 +719,7 @@ body {
         display: block;
         padding: 10px 16px;
         border-left: 3px solid transparent;
+        color: var(--sidebar-text);
     }
 
     .nav-link.active {
