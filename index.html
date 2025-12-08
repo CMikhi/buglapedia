@@ -5,6 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Buglapedia - Encyclopedia of Insect Orders</title>
     <link rel="stylesheet" href="styles.css">
+    <script>
+        function toggleMenu() {
+            const sidebar = document.getElementById('sidebar');
+            const hamburger = document.querySelector('.hamburger-menu');
+            sidebar.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        }
+
+        function toggleNavGroup(element) {
+            const navLinks = element.nextElementSibling;
+            navLinks.classList.toggle('active');
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const navGroupTitles = document.querySelectorAll('.nav-group-title');
+            navGroupTitles.forEach(title => {
+                title.addEventListener('click', function() {
+                    if (window.innerWidth <= 768) {
+                        toggleNavGroup(this);
+                    }
+                });
+            });
+        });
+    </script>
 </head>
 
 <body>
@@ -14,6 +38,11 @@
             <img src="images/logo.png" alt="Buglapedia Logo">
             <span>Buglapedia</span>
         </a>
+        <button class="hamburger-menu" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
         <div class="search-bar">
             <input type="text" placeholder="Search">
         </div>
@@ -52,15 +81,23 @@
         <main class="content">
             <div class="page-label">ENCYCLOPEDIA</div>
             <h1 class="page-title">Welcome to Buglapedia</h1>
-            <p class="page-intro">
-                Your complete guide to insect orders. Explore the fascinating world of insects, from bees and beetles to butterflies and beyond.
-            </p>
+            
+            <div class="intro-with-image">
+                <div class="intro-content">
+                    <p class="page-intro">
+                        Your complete guide to insect orders. Explore the fascinating world of insects, from bees and beetles to butterflies and beyond.
+                    </p>
 
-            <div class="section">
-                <h2 class="section-title">Getting Started</h2>
-                <p>
-                    Select an insect order from the sidebar navigation to learn more about each group. Each page includes detailed information about anatomy, behavior, species, and ecological importance.
-                </p>
+                    <div class="section">
+                        <h2 class="section-title">Getting Started</h2>
+                        <p>
+                            Select an insect order from the sidebar navigation to learn more about each group. Each page includes detailed information about anatomy, behavior, species, and ecological importance.
+                        </p>
+                    </div>
+                </div>
+                <div class="about-photo">
+                    <img src="images/bugChart.jpg" alt="Insects Chart">
+                </div>
             </div>
 
             <div class="section">

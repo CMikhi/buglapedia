@@ -5,6 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us - Buglapedia</title>
     <link rel="stylesheet" href="styles.css">
+    <script>
+        function toggleMenu() {
+            const sidebar = document.getElementById('sidebar');
+            const hamburger = document.querySelector('.hamburger-menu');
+            sidebar.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        }
+
+        function toggleNavGroup(element) {
+            const navLinks = element.nextElementSibling;
+            navLinks.classList.toggle('active');
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const navGroupTitles = document.querySelectorAll('.nav-group-title');
+            navGroupTitles.forEach(title => {
+                title.addEventListener('click', function() {
+                    if (window.innerWidth <= 768) {
+                        toggleNavGroup(this);
+                    }
+                });
+            });
+        });
+    </script>
 </head>
 <body>
     <!-- Top Header Bar -->
@@ -13,6 +37,11 @@
             <img src="images/logo.png" alt="Buglapedia Logo">
             <span>Buglapedia</span>
         </a>
+        <button class="hamburger-menu" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
         <div class="search-bar">
             <input type="text" placeholder="Search">
         </div>
