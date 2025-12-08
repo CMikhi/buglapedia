@@ -1,2 +1,0 @@
-These are imagages that I created in Figma to get a general idea of the direction I wanted to 
-take with the layout. I did not use their HTML function because I don't have a premium account.
