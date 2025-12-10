@@ -658,15 +658,6 @@ body {
         border-radius: 2px;
     }
 
-    .hamburger-menu.active span:nth-child(1) {
-    }
-
-    .hamburger-menu.active span:nth-child(2) {
-    }
-
-    .hamburger-menu.active span:nth-child(3) {
-    }
-
     /* Sidebar */
     #sidebar {
         width: 100%;
